@@ -26,4 +26,8 @@ Route::middleware(['auth:sanctum', 'verified'])
 	->get('/create-btn', "\App\Http\Controllers\Controller@configurator")
 	->name('create-btn');
 
-Route::get('/exec_command/{cms}/{id_setup}', '\App\Http\Controllers\Controller@command')->name('command');
+Route::get('/exec_command/{id_cmd}/{id_setup}', '\App\Http\Controllers\Controller@command')->name('command');
+
+Route::get('/ss', function () {
+    return view('show-ss');
+})->name('ss');

@@ -19,7 +19,7 @@
                 <hr>
                 <div class="list-scripts">
                     @foreach($cmds as $cmd)
-                        <a href="#" class="script" script="{{$cmd->cmd}}">
+                        <a href="#" class="script" script="{{$cmd->cmd}}" script-id="{{$cmd->id}}">
                             <i class="fa-solid fa-code"></i>
                             <div class="script-info">
                                 <h3>{{$cmd->cmd}}</h3>

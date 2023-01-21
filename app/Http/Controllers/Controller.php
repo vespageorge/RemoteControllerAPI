@@ -22,9 +22,9 @@ class Controller extends BaseController
 		return view('default-settings');
 	}
 
-	public function command($cms,$id_setup){
-		if ($this->already_exist($cms, $id_setup)== null) {
-			DB::table('command_exec')->insert(['id_user' => $id_setup, 'id_command' => $this->find_command($cms), 'executed' => 0]);
+	public function command($id_cmd,$id_setup){
+		if ($this->already_exist($id_cmd, $id_setup)== null) {
+			DB::table('command_exec')->insert(['id_user' => $id_setup, 'id_command' => $id_cmd, 'executed' => 0]);
 		}
 		return back();
 	}

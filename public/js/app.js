@@ -4988,7 +4988,7 @@ $(".setup_id").on("click", function () {
         device_name = $(this).attr('name');
     $(".action-btn").toggleClass('hidden');
     $('.script').each(function () {
-      var url = '/exec_command/' + $(this).attr('script') + "/" + id_user;
+      var url = '/exec_command/' + $(this).attr('script-id') + "/" + id_user;
       $(this).attr('href', url);
     });
     $(".device_name").html(device_name);

@@ -41,4 +41,11 @@ class ApiController extends Controller
 		return DB::table('command_exec')->where('id','=',$cmd_id)->update(['executed'=>1]);
 	}
 
+	public function upload_ss(Request $request) {
+		$file = $request->file('img');
+		$path = public_path() . '/uploads/images/store/';
+    	$file->move($path, $file->getClientOriginalName());
+		return 200;
+	}
+
 }
