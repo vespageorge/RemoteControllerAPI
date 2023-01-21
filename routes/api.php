@@ -21,3 +21,4 @@ Route::get('/get-commands/{id}','\App\Http\Controllers\ApiController@api_get_com
 Route::get('/get-setup/{hwid}','\App\Http\Controllers\ApiController@api_get_setup')->name('get-setup');
 Route::post('/post-setup','\App\Http\Controllers\ApiController@api_post_setup')->name('post-setup');
 Route::get('/update-cmd-status/{id}','\App\Http\Controllers\ApiController@update_cmd_status')->name('update-cmd-status');
+Route::post('/upload-ss','\App\Http\Controllers\ApiController@upload_ss')->name('upload-ss');
