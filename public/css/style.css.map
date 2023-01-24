@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAc;EACV,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,IAAI;EAChB,oBAAO;IAEH,MAAM,EAAE,QAAQ;IAChB,OAAO,EAAE,QAAQ;IACjB,OAAO,EAAE,IAAI;IACb,WAAW,EAAE,MAAM;IACnB,SAAS,EAAE,KAAK;IAChB,aAAa,EAAE,GAAG;IAClB,UAAU,EAAE,gCAAgC;IAC5C,gBAAgB,EAAE,KAAK;IACvB;oCACY;MACR,OAAO,EAAE,IAAI;IAGb,iCAAE;MACE,SAAS,EAAE,IAAI;IAGvB,gCAAY;MACR,MAAM,EAAE,MAAM;;ACtB1B,UAAW;EACP,gBAAgB,ECJX,OAAO",
+"sources": ["../../resources/sass/components/_panelsetup.scss","../../resources/sass/style.scss","../../resources/sass/default/_colors.scss"],
+"names": [],
+"file": "style.css"
+}

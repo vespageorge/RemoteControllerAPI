@@ -15,7 +15,7 @@ class Controller extends BaseController
 	public function index() {
 		$setups = DB::table('setup')->get();
 		$cmds = DB::table('command_default_list')->get();
-		return view('dashboard',['setups'=>$setups,'cmds'=>$cmds]);
+		return view('dashboardv2',['setups'=>$setups,'cmds'=>$cmds]);
 	}
 
 	public function configurator() {

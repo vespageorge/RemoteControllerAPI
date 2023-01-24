@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAc;EACV,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EAEnB,oBAAO;IACH,gBAAgB,ECLf,OAAO;IDMR,MAAM,EAAE,MAAM;IACd,OAAO,EAAE,IAAI;IACb,WAAW,EAAE,MAAM;IAEf,iCAAE;MACE,SAAS,EAAE,IAAI;MACf,OAAO,EAAE,IAAI",
+"sources": ["../sass/components/_panel_setup.scss","../sass/default/_colors.scss"],
+"names": [],
+"file": "style.css"
+}

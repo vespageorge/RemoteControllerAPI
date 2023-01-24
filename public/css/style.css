@@ -1,0 +1,26 @@
+.panel-setups {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  overflow-y: auto; }
+  .panel-setups .setup {
+    margin: 6px 12px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    min-width: 320px;
+    border-radius: 3px;
+    box-shadow: inset 3px 3px 34px -10px #F7B34F;
+    background-color: white; }
+    .panel-setups .setup .left-side,
+    .panel-setups .setup .right-side {
+      padding: 12px; }
+    .panel-setups .setup .left-side i {
+      font-size: 34px; }
+    .panel-setups .setup .right-side {
+      margin: 0 auto; }
+
+.bg-purple {
+  background-color: #1A0F52; }
+
+/*# sourceMappingURL=style.css.map */
