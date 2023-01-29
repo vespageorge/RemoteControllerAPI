@@ -1,3 +1,79 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+.selector_setup {
+  background: #ED6A5A !important;
+  margin-bottom: 24px;
+  padding: 12px; }
+  .selector_setup button {
+    background: white;
+    padding: 12px; }
+
+.list-setups {
+  width: 100%;
+  text-align: center; }
+  .list-setups td {
+    padding: 12px; }
+  .list-setups thead {
+    background: #5CA4A9;
+    color: white;
+    font-weight: bold; }
+  .list-setups tbody tr:hover {
+    background: #9BC1BC;
+    cursor: pointer; }
+
+.action-btn {
+  margin: 0 auto;
+  position: absolute;
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  left: 0;
+  right: 0;
+  max-width: 420px;
+  box-shadow: 0 0 14px -4px black; }
+  .action-btn .close-list-script {
+    font-size: 24px;
+    position: absolute;
+    color: #5C75C8; }
+  .action-btn h2 {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 24px; }
+  .action-btn .setup-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 24px; }
+    .action-btn .setup-info i {
+      font-size: 24px;
+      background: #ED6A5A;
+      color: white;
+      padding: 18px;
+      border-radius: 999px; }
+  .action-btn .list-scripts .script {
+    display: flex;
+    align-items: center;
+    background: #5C75C8;
+    padding: 12px 0; }
+    .action-btn .list-scripts .script h3, .action-btn .list-scripts .script p {
+      color: white; }
+    .action-btn .list-scripts .script h3 {
+      font-weight: bold; }
+    .action-btn .list-scripts .script:hover {
+      background: #ACACAC; }
+      .action-btn .list-scripts .script:hover h3, .action-btn .list-scripts .script:hover p {
+        color: black; }
+    .action-btn .list-scripts .script i {
+      margin: 0 24px;
+      font-size: 18px;
+      background: #ED6A5A;
+      color: white;
+      padding: 12px;
+      border-radius: 999px; }
+  .action-btn .list-scripts .script:nth-child(odd) {
+    background: #5C88BE; }
+    .action-btn .list-scripts .script:nth-child(odd):hover {
+      background: #ACACAC; }
+      .action-btn .list-scripts .script:nth-child(odd):hover h3, .action-btn .list-scripts .script:nth-child(odd):hover p {
+        color: black; }
+
+/*# sourceMappingURL=app.css.map */

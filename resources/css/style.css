@@ -1,0 +1,13 @@
+.panel-setups {
+  display: flex;
+  flex-direction: row; }
+  .panel-setups .setup {
+    background-color: #1A0F52;
+    margin: 0 12px;
+    display: flex;
+    align-items: center; }
+    .panel-setups .setup .left-side i {
+      font-size: 34px;
+      padding: 24px; }
+
+/*# sourceMappingURL=style.css.map */

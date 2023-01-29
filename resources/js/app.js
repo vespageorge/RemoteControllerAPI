@@ -10,7 +10,7 @@ $('.close-list-script').on("click", function () {
     $(".action-btn").toggleClass('hidden');
 });
 
-$(".setup_id").on("click", function () {
+$(".setup").on("click", function () {
     if ($(".action-btn").hasClass('hidden')) {
         let id_user = $(this).attr('id_user'),
             device_name = $(this).attr('name');
