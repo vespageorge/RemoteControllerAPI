@@ -13,7 +13,7 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-        <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+        <!-- <link rel="stylesheet" href="{{ asset('css/main.css') }}"> -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
         @livewireStyles
@@ -24,7 +24,7 @@
     <body class="font-sans antialiased">
         <x-jet-banner />
 
-        <div class="min-h-screen bg-purple">
+        <div class="min-h-screen bg-gray-100">
             @livewire('navigation-menu')
 
             <!-- Page Heading -->
