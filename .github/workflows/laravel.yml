@@ -2,9 +2,9 @@ name: Laravel
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "github-action" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "github-action" ]
 
 jobs:
   laravel-tests:
@@ -19,7 +19,10 @@ jobs:
     - name: Copy .env
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
     - name: Install Composer
-      run: sudo apt install composer
+      uses: php-actions/composer@v6
+      with:
+        dev: no
+        args: --profile --ignore-platform-reqs
     - name: Install Dependencies
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
     - name: Generate key
